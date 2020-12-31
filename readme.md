@@ -44,9 +44,9 @@ the gene expression from the TCGA may be loaded as a data frame. Lastly, the tum
 morphometry and volumetric features are saved as csv files that may also be read in as data
 frames.
 
-##Code
+## Code
 
-###Abstract
+### Abstract
 
 The smooth Euler characteristic transform for images and three-dimensional shapes is
 implemented as a set of R and MATLAB routines. Results in the manuscript were derived by
@@ -82,12 +82,12 @@ refer to the manual R Installation and Administration.
 R Packages Required for SECT and the GP Regression: The statistical implementation of the
 SECT topological summaries using functional RKHS models requires the installation of the
 following R libraries:
-ï BGLR (version 1.0.8)
-ï doParallel (version 1.0.14)
-ï Rcpp (version 1.0.1)
-ï RcppArmadillo (version 0.9.400.3.0)
-ï RcppParallel (4.4.2)
-ï R.matlab (if using the MATLAB version of SECT)
+‚Ä¢ BGLR (version 1.0.8)
+‚Ä¢ doParallel (version 1.0.14)
+‚Ä¢ Rcpp (version 1.0.1)
+‚Ä¢ RcppArmadillo (version 0.9.400.3.0)
+‚Ä¢ RcppParallel (4.4.2)
+‚Ä¢ R.matlab (if using the MATLAB version of SECT)
 
 The easiest method to install these packages is with the following example command entered in
 an R shell:
@@ -114,10 +114,10 @@ Note that results for the manuscript were derived using gcc version 9.2.0.
 ## Instructions for Use
 
 Please ensure that the versions of the software match those specified in the descriptions above.
-Also, please ensure that the working directory is set appropriately, and that all of the necessary files from the repository have been downloaded to the working directory. The ìAnalysisî folder
+Also, please ensure that the working directory is set appropriately, and that all of the necessary files from the repository have been downloaded to the working directory. The ‚ÄúAnalysis‚Äù folder
 contains the script Paper_Scripts.R, which provides a sequence of commands to be run in
 subsequent order and presents the final results in a table, which matches Table 1 in the
-manuscript; detailed instructions are given in the code commentary. The ìTutorialî folder
+manuscript; detailed instructions are given in the code commentary. The ‚ÄúTutorial‚Äù folder
 contains the script SECT_Tutorial.R, which provides sample SECT curves for an example
 segmented tumor; detailed instructions are given in the code commentary.
 
